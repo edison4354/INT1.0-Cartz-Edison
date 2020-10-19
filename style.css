@@ -1,0 +1,100 @@
+html, body, main, header, #intro {
+    height: 100%;
+    margin: 0;
+}
+
+nav, main > section {
+    overflow: auto;
+}
+
+header, main > section, main > footer {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #7D6CC3;
+    font-size: 16px;
+}
+
+ul a:hover {
+    color: #FCD460;
+}
+
+#intro {
+    background: url("img/purple-background.png")no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee;
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-right: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7D6CC3;
+}
+
+.navbar-brand {
+    padding-left: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #7D6CC3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav li {
+    padding-left: 50px;
+}
+
+.mask {
+    width: 75%;
+}
+
+#title {
+    margin: 0;
+    font-size: 4.5em;
+}
+
+#description {
+    font-size: 2.4em;
+}
+
+#button-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: #FCD460; /* Yellow */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
