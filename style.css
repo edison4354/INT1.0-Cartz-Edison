@@ -7,7 +7,7 @@ nav, main > section {
     overflow: auto;
 }
 
-header, main > section, main > footer {
+header, main > section {
     min-height: 100vh;
 }
 
@@ -21,9 +21,18 @@ ul a:hover {
     color: #FCD460;
 }
 
-#intro {
+header {
     background: url("img/purple-background.png")no-repeat center center fixed;
     background-size: cover;
+}
+
+nav {
+    background-color: white;
+}
+
+/* Home Page Styling */
+
+#intro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,4 +106,85 @@ ul a:hover {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 25px;
+}
+
+/* About Page Styling */
+
+#about {
+    background: url("img/Screen Shot 2020-10-19 at 11.55.30 AM.png")no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #808080;
+}
+.mask > h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mask > p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+#card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    border: #ccc1f7 solid;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 8px grey;
+    border-radius: 10px;
+}
+
+/* Feature Page Styling */
+
+#features {
+    background-color: #f8f8f877;
+    position: relative; 
+    height: 24px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#features > img { 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    height: 800px; 
+}
+
+#feature-text {
+    position: absolute; 
+    right: 0; 
+    width: 700px; 
+    padding-right: 100px;
+}
+
+#feature-text h1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#feature-text p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contact Page Styling */
+
+/* Footer */
+footer {
+    background-color: rgb(125, 108, 195, 0.29);
+    min-height: 30vh;
 }
