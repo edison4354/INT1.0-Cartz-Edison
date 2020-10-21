@@ -144,6 +144,11 @@ nav {
     background-color: white;
     box-shadow: 2px 2px 8px grey;
     border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 /* Feature Page Styling */
@@ -161,7 +166,7 @@ nav {
     position: absolute; 
     left: 0; 
     bottom: 0; 
-    height: 800px; 
+    height: 700px; 
 }
 
 #feature-text {
@@ -240,4 +245,7 @@ nav {
 footer {
     background-color: rgb(125, 108, 195, 0.29);
     min-height: 30vh;
+}
+
+footer h1 {
 }
